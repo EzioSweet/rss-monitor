@@ -1,0 +1,21 @@
+{
+  "name": "rss-monitor",
+  "module": "index.ts",
+  "scripts": {
+    "start": "node -r esbuild-register src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.15",
+    "esbuild": "^0.25.8",
+    "esbuild-register": "^3.6.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "colorette": "^2.0.20",
+    "emailjs": "^4.0.3",
+    "rss-parser": "^3.13.0",
+    "yaml": "^2.8.0"
+  }
+}

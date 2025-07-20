@@ -1,0 +1,17 @@
+mail:
+  smtp:
+    host: smtp.example.com
+    port: 465
+    user: yourUser
+    password: yourPassword
+  from: "Notifier <notifier@example.com>"
+  to:
+    - recipient1@example.com
+    - recipient2@example.com
+logLevel: info
+updateInterval: 60000  # 以毫秒为单位，这里为 60 秒
+subscriptions:
+  - name: "Tech News"
+    url: "https://example.com/rss/tech.xml"
+  - name: "World News"
+    url: "https://example.com/rss/world.xml"
