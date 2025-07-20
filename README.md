@@ -21,7 +21,7 @@ RSS Monitor 是一个使用 TypeScript 构建的 RSS/Atom 订阅监控工具。�
 项目按照模块化设计，典型目录结构如下：
 
 ```
-RSS-Monitor/
+rss-monitor/
 ├── config.yml         # 项目主要配置文件：邮件、更新间隔、订阅列表、日志等级
 ├── status.yml         # 存储各订阅的最新更新时间（首次运行可为空或不存在）
 ├── package.json       # Node.js 项目依赖
@@ -48,13 +48,13 @@ RSS-Monitor/
 ### 1. 克隆代码
 
 ```bash
-git clone https://github.com/your-username/rss-monitor.git
+git clone https://github.com/EzioSweet/rss-monitor
 cd rss-monitor
 ```
 
 ### 2. 安装依赖
 
-确保你安装了 Node.js 18+（自带 `fetch` 功能）和 npm。
+确保你安装了 Node.js 18+和 npm。
 
 ```bash
 npm install
