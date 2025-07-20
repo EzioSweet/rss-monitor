@@ -1,6 +1,6 @@
 # RSS Monitor
 
-RSS Monitor 是一个使用 TypeScript 构建的 RSS/Atom 订阅监控工具。该项目支持定时检测多个 RSS/Atom 订阅源的更新，并在检测到新的内容时，通过邮件发送现通知。
+RSS Monitor 是一个使用 TypeScript 构建的 RSS/Atom 订阅监控工具。该项目支持定时检测多个 RSS/Atom 订阅源的更新，并在检测到新的内容时，通过邮件发送通知。
 
 ---
 
